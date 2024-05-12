@@ -1,0 +1,19 @@
+package view_layout
+
+templ Meta() {
+	<!DOCTYPE html>
+	<html id="html">
+		<head>
+			<title>Title</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link rel="stylesheet" href="/dist/tailwind.css"/>
+			<script src="/dist/htmx.js"></script>
+			<script src="/dist/hyperscript.js"></script>
+			<script src="/dist/jquery.js"></script>
+			<script src="/dist/events.js"></script>
+		</head>
+		<body class="absolute w-full h-full">
+			{ children... }
+		</body>
+	</html>
+}

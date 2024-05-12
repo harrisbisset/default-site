@@ -1,0 +1,17 @@
+{
+	"tailwindCSS.includeLanguages": {
+		"templ": "html"
+	},
+	
+	"html.suggest.html5": true,
+	"editor.linkedEditing": true,
+	"editor.formatOnSave": true,
+
+	"[templ]": {
+		"editor.defaultFormatter": "a-h.templ"
+	},
+
+	"emmet.includeLanguages": {
+		"templ": "html"
+	},
+}
